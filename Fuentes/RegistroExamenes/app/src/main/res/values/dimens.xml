@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imagenLogo">100dp</dimen>
+    <dimen name="titulo_app_size">40sp</dimen>
+    <dimen name="margin_left_titulo_app">20dp</dimen>
+    <dimen name="marginTopBase">20dp</dimen>
+    <dimen name="TamanioLetra">22sp</dimen>
+    <dimen name="TamanioBoton">22sp</dimen>
+    <dimen name="paddingToolbar">10dp</dimen>
+    <dimen name="margin_left_prod">5dp</dimen>
+</resources>

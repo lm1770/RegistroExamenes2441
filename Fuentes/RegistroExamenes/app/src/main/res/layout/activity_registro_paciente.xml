@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroPacienteActivity">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Rut :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/rutRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Nombre :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/nombreRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Fecha Examen :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/fechaRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Area de Trabajo :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/areaRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Presenta sintomas :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/sintomasRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Presenta tos :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tosRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Temperatura :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/temperaturaRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopBase">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Presion arterial :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/presionRegTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

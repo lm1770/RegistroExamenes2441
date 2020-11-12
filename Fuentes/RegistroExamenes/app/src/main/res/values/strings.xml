@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RegistroExamenes</string>
+    <string name="Label1">Nombre :</string>
+    <string name="Label2">Password :</string>
+</resources>
