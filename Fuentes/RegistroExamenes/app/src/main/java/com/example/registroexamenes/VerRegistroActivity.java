@@ -23,6 +23,10 @@ public class VerRegistroActivity extends AppCompatActivity {
     private RegistroArrayAdapter adaptador;
     private RegistrosDAO registrosDAO = RegistroDAOLista.getInstance();
 
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

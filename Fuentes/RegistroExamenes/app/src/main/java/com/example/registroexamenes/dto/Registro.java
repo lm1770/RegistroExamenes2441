@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class Registro implements Serializable {
+    private int id;
     private String rutPaciente;
     private String nombre;
     private String apellido;
@@ -13,6 +14,14 @@ public class Registro implements Serializable {
     private double temperatura;
     private boolean presentaTos;
     private int presionArterial;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getRutPaciente() {
         return rutPaciente;
